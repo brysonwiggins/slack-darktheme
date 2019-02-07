@@ -930,7 +930,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__sender .c-emoji__text_mode_icon { color: #949494; }
 
-.c-message__body { color: #e6e6e6; }
+.c-message__body { color: ##cce6ff; }
 
 .c-message__body--unknown { background: rgba(84, 84, 84, 0.1); }
 
@@ -940,7 +940,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__label { color: #949494; }
 
-.c-message__label__highlight_title { color: #e6e6e6; }
+.c-message__label__highlight_title { color: #cce6ff; }
 
 .c-message__label__highlight_positive, .c-message__label__highlight_negative { color: #949494; }
 
@@ -950,7 +950,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__resend_column { background-color: rgba(84, 84, 84, 0.1); }
 
-.c-message__resend, .c-message__cancel { color: #e6e6e6; }
+.c-message__resend, .c-message__cancel { color: #cce6ff; }
 
 .c-message__edited_label { color: #949494; }
 
@@ -962,13 +962,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__call_attachment { background: #222; border-color: rgba(84, 84, 84, 0.1); }
 
-.c-message__call_icon { color: #e6e6e6; }
+.c-message__call_icon { color: #cce6ff; }
 
 .c-message__call--ended .c-message__call_icon { color: #949494; }
 
-.c-message__call_info { color: #e6e6e6; }
+.c-message__call_info { color: #cce6ff; }
 
-.c-message__call_name--linked { color: #e6e6e6; }
+.c-message__call_name--linked { color: #cce6ff; }
 
 .c-message__call_name + .c-message__call_description::before { color: #949494; }
 
@@ -980,7 +980,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_actions__button { border-right-color: #363636; color: #949494; }
 
-.c-message_actions__button:hover { color: #e6e6e6; }
+.c-message_actions__button:hover { color: #cce6ff; }
 
 .c-message_actions__button:active { background: #363636; }
 
@@ -988,9 +988,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message_group:hover .c-message_group__header { color: #949494; }
 
-.c-message_group__header { color: #e6e6e6; }
+.c-message_group__header { color: #cce6ff; }
 
-.c-message_group__divider_text { background-color: #222; color: #e6e6e6; }
+.c-message_group__divider_text { background-color: #222; color: #cce6ff; }
 
 .c-message_list__unread_divider__separator { border-color: #545454; }
 
@@ -1002,7 +1002,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-virtual_list__item--focus:focus .c-message_list__focus_indicator { box-shadow: inset 0 0 0 3px rgba(130, 130, 130, 0.8); }
 
-ts-message { color: #e6e6e6; }
+ts-message { color: #cce6ff; }
 
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(0, 0, 0, 0.1); box-shadow: inset 1px 0 0 0 #222; }
 
