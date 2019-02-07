@@ -426,11 +426,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #message_edit_container .message_input { background: #545454; border-color: #363636; color: #e6e6e6; }
 
-#message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px; rgba(0, 0, 0, 0.15); }
+#message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
 
-.ql-editor::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, 0.4); color: #222; }
+.ql-editor::-webkit-scrollbar-thumb { background-color: rgba(84, 84, 84, 0.5); color: #222; }
 
-.ql-editor::-webkit-scrollbar-thumb:hover { background-color: rgba(0, 0, 0, 0.4); }
+.ql-editor::-webkit-scrollbar-thumb:hover { background-color: rgba(84, 84, 84, 0.8); }
 
 .ql-placeholder, .texty_legacy .ql-placeholder { color: #e6e6e6; filter: none; }
 
@@ -930,7 +930,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__sender .c-emoji__text_mode_icon { color: #949494; }
 
-.c-message__body { color: ##e6e6e6; }
+.c-message__body { color: #e6e6e6; }
 
 .c-message__body--unknown { background: rgba(84, 84, 84, 0.1); }
 
