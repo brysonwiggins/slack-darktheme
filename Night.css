@@ -1,8 +1,8 @@
 :root {
 	--primary: #09F;
 	--text: #DDD;
-	--background: rgb(120, 120, 120);
-	--background-elevated: rgb(120, 120, 120);
+	--background: #787878;
+	--background-elevated: #787878;
 	--color-highlight: rgb(43, 107, 149);
 
 	/* These should be less important: */
