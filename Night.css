@@ -29,7 +29,7 @@ limitations under the License.
 }
 
 h1, h2, h3, h4 {
-  color: var(--text-custom);
+  color: var(--text-special);
 }
 
 .popover_mask {
@@ -413,11 +413,11 @@ span.match {
 .mention_rxn .mention_rxn_summary .app_preview_link,
 .mention_rxn .mention_rxn_summary .member_preview_link,
 .mention_rxn .mention_rxn_summary .mention_rxn_summary_members {
-   color: var(--text-custom);
+   color: var(--text-special);
 }
 
 #member_mentions h3 a {
-   color: var(--text-custom);
+   color: var(--text-special);
 }
 
 pre.special_formatting{
