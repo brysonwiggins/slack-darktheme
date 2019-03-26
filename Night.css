@@ -691,6 +691,11 @@ ts-message .reply_bar:hover {
 #convo_tab .message_input, #convo_tab textarea#msg_text {
    color: var(--text) !important;
 }
+
+p-threads p-threads_view {
+	color: var(--text) !important;
+}
+
 .inline_message_input_container .ql-container.focus,
 .inline_message_input_container .ql-container:active {
    border-color: var(--border-dim) !important;
