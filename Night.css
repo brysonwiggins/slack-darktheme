@@ -401,7 +401,7 @@ span.match {
 
 .mention > .mention {
    /* I'm assuming this is a Slack bug */
-   border: none;
+   border-radius: 5px;
 }
 
 .mention_rxn {
@@ -412,7 +412,7 @@ span.match {
 .mention_rxn .mention_rxn_summary .app_preview_link,
 .mention_rxn .mention_rxn_summary .member_preview_link,
 .mention_rxn .mention_rxn_summary .mention_rxn_summary_members {
-   color: var(--text);
+   color: var(--text-special);
 }
 
 #member_mentions h3 a {
